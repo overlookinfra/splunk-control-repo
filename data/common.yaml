@@ -5,5 +5,6 @@ ntp::servers:
   - time3.google.com iburst
   - time4.google.com iburst
 puppet_metrics_collector::metrics_server_info:
-  - metrics_server_type: splunk_hec
-    hostname: splunk.angrydome.org
+  - Puppet_metrics_collector::Metrics_server:
+    - metrics_server_type: splunk_hec
+      hostname: splunk.angrydome.org
