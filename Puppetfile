@@ -58,9 +58,12 @@ mod 'stahnma-epel', '1.3.1'
 mod 'investigate',
   :git => 'https://github.com/mrzarquon/puppet-module-investigate.git'
 
-mod 'splunk_hec',
-  :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
-  :branch => 'pie_81_cd4pe_support'
+
+mod 'puppetlabs/splunk_hec', :latest
+
+#mod 'splunk_hec',
+#  :git => 'https://github.com/mrzarquon/puppetlabs-splunk_hec.git',
+#  :branch => 'pie_81_cd4pe_support'
 
 mod 'puppet_metrics_collector',
   :git => 'https://github.com/HelenCampbell/puppetlabs-puppet_metrics_collector.git',
