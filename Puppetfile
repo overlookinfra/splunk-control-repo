@@ -66,5 +66,4 @@ mod 'puppetlabs/splunk_hec', :latest
 #  :branch => 'pie_81_cd4pe_support'
 
 mod 'puppet_metrics_collector',
-  :git => 'https://github.com/puppetlabs/puppetlabs-puppet_metrics_collector.git',
-
+  :git => 'https://github.com/puppetlabs/puppetlabs-puppet_metrics_collector.git'
